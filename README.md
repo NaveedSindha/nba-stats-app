@@ -45,8 +45,8 @@ python --version
 
 ## 2. (Optional but recommended) Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate    # macOS/Linux
-venv\Scripts\activate     # Windows
+source venv/bin/activate (macOS/Linux)
+venv\Scripts\activate     (Windows)
 
 ## 3. Install backend dependencies
 pip install -r requirements.txt
