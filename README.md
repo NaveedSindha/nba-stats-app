@@ -34,49 +34,49 @@ NBA STATS APP/
 ├── package-lock.json
 └── .gitignore
 ```
-# ===============================
-# Installation & Setup
-# ===============================
+## ===============================
+## Installation & Setup
+## ===============================
 
-# ----- Backend (FastAPI) -----
+## ----- Backend (FastAPI) -----
 
-# 1. Ensure Python 3.9+ is installed
+## 1. Ensure Python 3.9+ is installed
 python --version
 
-# 2. (Optional but recommended) Create and activate a virtual environment
+## 2. (Optional but recommended) Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate    # macOS/Linux
-# venv\Scripts\activate     # Windows
+venv\Scripts\activate     # Windows
 
-# 3. Install backend dependencies
+## 3. Install backend dependencies
 pip install -r requirements.txt
 
-# 4. Start the FastAPI server
+## 4. Start the FastAPI server
 
-# Option A (recommended, if uvicorn is on PATH)
+## Option A (recommended, if uvicorn is on PATH)
 uvicorn app:app --reload
 
-# Option B (if uvicorn is not found)
+## Option B (if uvicorn is not found)
 python -m uvicorn app:app --reload
 
-# Backend will be available at:
-# http://127.0.0.1:8000
+## Backend will be available at:
+## http://127.0.0.1:8000
 
 
-# ----- Frontend (React) -----
+## ----- Frontend (React) -----
 
-# 5. Open a new terminal and navigate to the frontend folder
+## 5. Open a new terminal and navigate to the frontend folder
 cd frontend
 
-# 6. Load Node Version Manager (if applicable)
+## 6. Load Node Version Manager (if applicable)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-# 7. Install frontend dependencies
+## 7. Install frontend dependencies
 npm install
 
-# 8. Start the React development server
+## 8. Start the React development server
 npm start
 
-# Frontend will be available at:
-# http://localhost:3000
+## Frontend will be available at:
+## http://localhost:3000
