@@ -43,10 +43,15 @@ NBA STATS APP/
 ## 1. Ensure Python 3.9+ is installed
 python --version
 
-## 2. (Optional but recommended) Create and activate a virtual environment
+## 2. (Optional) Create and activate a virtual environment:
+
+For macOS/Linux:
+
 python -m venv venv
-source venv/bin/activate (macOS/Linux)
-venv\Scripts\activate     (Windows)
+source venv/bin/activate
+
+For Windows:
+venv\Scripts\activate
 
 ## 3. Install backend dependencies
 pip install -r requirements.txt
