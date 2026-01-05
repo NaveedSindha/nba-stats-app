@@ -49,7 +49,6 @@ For macOS/Linux:
 
 python -m venv venv
 
-
 source venv/bin/activate
 
 For Windows:
