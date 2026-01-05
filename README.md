@@ -73,6 +73,7 @@ cd frontend
 
 ## 5. Load Node Version Manager (if applicable)
 export NVM_DIR="$HOME/.nvm"
+
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 ## 6. Install frontend dependencies
