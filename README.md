@@ -54,7 +54,7 @@ source venv/bin/activate
 For Windows:
 venv\Scripts\activate
 
-## 4. Start the FastAPI server
+## 3. Start the FastAPI server
 
 ## Option A (recommended, if uvicorn is on PATH)
 uvicorn app:app --reload
@@ -68,17 +68,17 @@ python -m uvicorn app:app --reload
 
 ## ----- Frontend (React) -----
 
-## 5. Open a new terminal and navigate to the frontend folder
+## 4. Open a new terminal and navigate to the frontend folder
 cd frontend
 
-## 6. Load Node Version Manager (if applicable)
+## 5. Load Node Version Manager (if applicable)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-## 7. Install frontend dependencies
+## 6. Install frontend dependencies
 npm install
 
-## 8. Start the React development server
+## 7. Start the React development server
 npm start
 
 ## Frontend will be available at:
